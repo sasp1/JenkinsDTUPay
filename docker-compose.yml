@@ -1,0 +1,8 @@
+version: "3"
+services:
+  demo:
+    image: simple-quarkus-rest
+    build: code-with-quarkus
+    container_name: simple-quarkus-rest-server
+    ports:
+      - "8040:8080"
